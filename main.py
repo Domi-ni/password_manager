@@ -27,9 +27,11 @@ password_text_label.grid(row=3, column=0)
 
 # entry
 website_input = Entry(width=40)
+website_input.focus()
 website_input.grid(row=1, column=1, columnspan=2)
 
 user_input = Entry(width=40)
+user_input.insert(index=0, string="user@gmail.com")
 user_input.grid(row=2, column=1, columnspan=2)
 
 password_input = Entry(width=22)
