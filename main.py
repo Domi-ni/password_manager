@@ -1,8 +1,26 @@
 from tkinter import *
+from tkinter import messagebox
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
+
+
+def save():
+    website = website_input.get()
+    user = user_input.get()
+    password = password_input.get()
+    if website == "" or password == "" or user == "":
+        messagebox.showinfo(title="Miss Information", message="Please don't leave any of the fields empty")
+    else:
+        is_ok = messagebox.askokcancel(title=website, message=f"Do yo wanna to save \n Site: {website} \n "
+                                                          f"User:{user} \n Password: {password} \n is that correct?")
+        if is_ok:
+            with open("data.txt", mode="a") as data_file:
+                data_file.write(f"{website} | {user} | {password} \n")
+                website_input.delete(0, "end")
+                password_input.delete(0, "end")
+
 
 # ---------------------------- UI SETUP ------------------------------- #
 
@@ -41,7 +59,7 @@ password_input.grid(row=3, column=1)
 generate_password_button = Button(text="Generate Password")  # command=generate_password
 generate_password_button.grid(row=3, column=2)
 
-add_button = Button(text="Add", width=35)
+add_button = Button(text="Add", width=35, command=save)
 add_button.grid(row=4, column=1, columnspan=2)
 
 window.mainloop()
