@@ -42,7 +42,7 @@ def search():
         if website in data:
             user = data[website]["user"]
             password = data[website]["password"]
-            messagebox.showinfo(title="Website", message=f"Email: {user}\nPassword: {password}")
+            messagebox.showinfo(title=website, message=f"Email: {user}\nPassword: {password}")
         else:
             messagebox.showinfo(title="Error", message=f"There's No Data File Found For {website}")
     finally:
