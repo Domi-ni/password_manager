@@ -1,11 +1,11 @@
 import json
 from tkinter import *
 from tkinter import messagebox
+from tkinter.simpledialog import askstring
 import random
 
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
-
 
 def generate_password():
     letters = [
@@ -112,7 +112,18 @@ website_input.focus()
 website_input.grid(row=1, column=1)
 
 user_input = Entry(width=47)
-user_input.insert(index=0, string="user@gmail.com")
+
+try:
+    with open("data/user_mail.txt", mode="r") as user_mail_data:
+        user_input.insert(index=0, string=user_mail_data.read())
+
+except FileNotFoundError:
+    user_mail = askstring("Email", "\nWhat's your most used email?\n")
+
+    with open("data/user_mail.txt", mode="w") as user_mail_data:
+        user_mail_data.write(user_mail)
+
+
 user_input.grid(row=2, column=1, columnspan=2)
 
 password_input = Entry(width=28)
