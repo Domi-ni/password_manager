@@ -1,8 +1,8 @@
 <h1 align="justify"> MyPass - Password Manager </h1>
 
-[Read this page in English]((https://github.com/Domi-ni/password_manager/blob/main/README-pt.md))
+[Read this page in English]((https://github.com/Domi-ni/password_manager/blob/main/README.md))
 <br>
-[Leia esta página em português](https://github.com/Domi-ni/password_manager/blob/main/README.md)
+[Leia esta página em português](https://github.com/Domi-ni/password_manager/blob/main/README-pt.md)
 
 <p align="justify">
   <img loading="lazy" src="https://github.com/Domi-ni/password_manager/assets/112003358/dba8b269-1894-4101-853b-4424027595ee"/>
