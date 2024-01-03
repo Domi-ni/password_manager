@@ -1,6 +1,6 @@
 <h1 align="justify"> MyPass - Password Manager </h1>
 
-[Read this page in English]((https://github.com/Domi-ni/password_manager/blob/main/README.md))
+[Read this page in English](https://github.com/Domi-ni/password_manager/tree/main#readme)
 <br>
 [Leia esta página em português](https://github.com/Domi-ni/password_manager/blob/main/README-pt.md)
 
