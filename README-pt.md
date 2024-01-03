@@ -64,7 +64,7 @@ As tecnicas e tecnologias utilizadas para o desenvolvimento foram:
 
 <h2 align="justify">📁 Acesso ao projeto</h2>
 
-Você pode [acessar o código fonte do projeto aqui](https://github.com/Domi-ni/password_manager/tree/main), ou baixa-lo diretamente clicando [aqui](https://github.com/Domi-ni/password_manager/files/13814516/password_manager-main.zip), 
+Você pode [acessar o código fonte do projeto aqui](https://github.com/Domi-ni/password_manager/tree/main), ou baixa-lo diretamente clicando [aqui](https://github.com/Domi-ni/password_manager/files/13815303/password_manager-main.1.zip)
 
 <h2 align="justify">📁 🛠️ Abrir e rodar o projeto</h2>
 
